@@ -38,7 +38,37 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Home Page */
+/* Product Page */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  background-color: #2c3e50;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.product-item img {
+  width: 80%;  /* Reduced image size */
+  max-width: 300px; /* Ensures the image doesn't exceed a certain width */
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Added more shadow */
+  height: auto;
+  margin-bottom: 15px;  /* Space between image and text */
+}
+
+.product-item h2 {
+  color: #f0c14b;
+}
+
+/* Other Styles for Home Page or Additional Elements */
 h1 {
   text-align: center;
   color: #f0c14b;
@@ -72,33 +102,3 @@ h1 {
 .flex-item h2 {
   color: #f0c14b;
 }
-
-/* Product Page */
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-}
-
-.product-item {
-  background-color: #2c3e50;
-  color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.product-item img {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-  height: auto;
-}
-
-.product-item h2 {
-  color: #f0c14b;
-}
-
-/* Contact
