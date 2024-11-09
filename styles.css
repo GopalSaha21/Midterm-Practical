@@ -149,3 +149,81 @@ h1 {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+
+/* Footer Styling */
+footer {
+  background-color: #333; /* Dark background for footer */
+  color: white;           /* White text */
+  padding: 20px 0;        /* Padding for spacing */
+  text-align: center;     /* Center the text */
+  font-size: 14px;        /* Font size for footer text */
+  margin-top: 40px;       /* Space from content above */
+}
+
+/* Footer container for better structure */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+/* Footer info section */
+.footer-info {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Footer links section */
+.footer-links {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links ul li a:hover {
+  color: #f0c808;  /* Golden color on hover */
+}
+
+/* Footer social icons section */
+.footer-social {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-social ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.footer-social ul li a img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s;
+}
+
+.footer-social ul li a img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
